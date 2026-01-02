@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GameZone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>🎮 GameZone</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signup">Signup</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="section">
+        <h1>Welcome to GameZone</h1>
+        <p>Your ultimate gaming community</p>
+        <button onclick="playGame()">Start Game</button>
+        <p id="gameMsg"></p>
+    </section>
+
+    <!-- Login -->
+    <section id="login" class="section">
+        <h2>Login</h2>
+        <input type="text" id="loginUser" placeholder="Username">
+        <input type="password" id="loginPass" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="loginMsg"></p>
+    </section>
+
+    <!-- Signup -->
+    <section id="signup" class="section">
+        <h2>Signup</h2>
+        <input type="text" id="signUser" placeholder="Username">
+        <input type="email" id="signEmail" placeholder="Email">
+        <input type="password" id="signPass" placeholder="Password">
+        <button onclick="signup()">Signup</button>
+        <p id="signMsg"></p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>GameZone is a platform for gamers to explore, play and connect.</p>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section">
+        <h2>Gaming Blog</h2>
+        <p>🔥 Top 10 Games of 2026</p>
+        <p>🎯 Tips to improve your gaming skills</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
